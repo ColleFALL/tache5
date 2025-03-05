@@ -1,0 +1,574 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width:100%;
+    margin: auto;
+    
+}
+.section1{
+    background-image: url("images/image\ fond.jpg") ;
+    height: 600px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.P{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color:orangered;
+    height: 200px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 25px; */
+    margin: 50px;
+}
+.I{
+    margin-top: 10px;
+
+}
+.p1,.p2,.p3{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+.J{
+    margin-top: 10px;
+
+}
+
+.K{
+    margin-top: 10px;
+
+}
+.p{
+    font-size: 25px;
+}
+
+
+.download{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+button{
+    color:white;
+    background-color: rgb(235, 86, 32);
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 86, 32) ;
+    height: 50px;
+    width: 150px;
+  
+}
+.image-logo{
+    width: 100%;
+    height: 100%;
+}
+.image-logo img{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 120px;
+    border-radius: 200px; 
+}
+
+ .image{
+    text-align: center;
+    background-color:white;
+    margin-left: 50px;
+    height: 100%;
+    margin-top: 100px;   
+} 
+.deux{
+    position: relative;
+    bottom: 340px;
+    right: 50px; 
+}
+.michel{
+    position: relative;
+    bottom: 340px;
+}
+.p4{
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    bottom: 220px;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color:  rgb(235, 86, 32) ;
+    font-size: 30px;
+}
+i{
+    color: white;
+    position: relative;
+    top: 35px; 
+    left: 20px; 
+    /* width: 400px; */
+    
+}
+.fa-brands,.fa-solid{
+    color: white;
+    position: relative;
+    top: 18px; 
+    left: 17px;
+    width: 200%;
+
+}
+.icone{
+    display: flex;
+    justify-content: center;
+    gap: 15px;  
+    /* margin-bottom: 300px; */
+}
+ .icone1,.icone2,.icone3,.icone4{
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    border-radius: 70px; 
+    position: relative;
+    bottom: 240px;
+
+} 
+.fa-brands:hover{
+    color: orangered;
+
+} 
+.fa-solid:hover{
+    color: orangered;
+}
+
+.section2{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.butt1{
+    background-color:rgb(235, 86, 32) ; 
+    width: 70px;
+    height: 10px;
+    margin-left: 50px;
+    margin-top: 250px;
+    border-radius: 10px;
+
+
+}
+
+.butt{
+    background-color:rgb(235, 86, 32) ; 
+    width: 70px;
+    height: 10px;
+    margin-left: 50px;
+    margin-top: 10     0px;
+    border-radius: 10px;
+}
+h1{
+    margin-left: 50px;
+    font-size: 30px;
+}
+.h2{
+    color: black;
+    font-size: 20px;
+   
+}
+.porto{
+    position: relative;
+    top: 300px;
+}
+
+.table{
+    display: table;
+    margin-top: 120px;
+    margin-bottom: 180px;
+    margin-left: 500px;
+}
+nav li{
+    list-style: none;
+    float: left;
+}
+nav ul{
+    /* margin: 0px;
+    padding: 0px; */
+    margin-bottom: 150px;
+}
+nav a{
+    display: inline;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px 20px;
+    color: rgb(61, 60, 60);
+
+}
+a:hover{
+    color: rgb(248, 159, 96);
+}
+.container-image{
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    gap:10px; 
+    /* margin: auto;  */
+
+}
+
+.image1  {
+    width: 100%;
+    height: 500px;
+
+}
+.image1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.IMG1,.IMG2{
+    display: flex;
+    gap: 10px;
+}
+.photo2, .photo7, .photo10{
+    grid-row: span 2;
+    height: 100%;
+}
+.folio{
+    display: flex;
+    gap: 350px;
+    align-items: center;
+}
+.paragraphe{
+    font-size: 25px;
+    color: gray;
+}
+h2{
+    color: white;
+}
+.path{
+    color:gray;
+    font-size: 20px;
+    margin-left: 45px;
+    
+}
+.deux{
+    position: relative;
+    bottom:280px;
+    left: 30px;
+
+}
+.folio2{
+    display: flex;
+    gap: 350px;
+    align-items: center;
+    background-color:  rgb(114, 8, 141);
+    margin-top: 60px;
+}
+
+.paragraphe2,ul{
+    color: white;
+    font-size: 25px;
+}
+.paragraphe3{
+    color:gray;
+    font-size: 25px;
+}
+.folio3{
+    display: flex;
+    gap: 400px;
+    margin-top: 60px;
+}
+h4{
+    font-size: 27px;
+    color: black;
+}
+.UCLA{
+    color: orangered;
+    font-size: 25px;
+}
+.MAY{
+    color: gray;
+    font-size: 23px;
+}
+.texte{
+    margin-left: 50px;
+}
+.flex{
+    /* margin-left: 20px; */
+    flex-direction: column;
+    border-left: 4px solid grey;
+}
+
+.career {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: rgb(75, 74, 74);
+    color: rgb(75, 74, 74);
+    font-size: 20px;
+}
+.section4{
+    background-color: rgb(114, 8, 141);
+    margin-top: 5px;
+    height: 950px;  
+}
+.para1{
+    color: white;
+    font-size:20px;
+}
+.para0{
+  position: relative;
+  top: 20px;
+} 
+ .paragraphe-text{
+    display: block;
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+   
+h2{
+    color: white;
+}
+h3{
+    color: white;
+    margin-left: 65px;
+}
+.h3{
+    margin-left: 100px;
+}
+
+.section4, h2,h3,.para1,.para2{
+    color: white;
+}
+h2{
+
+    margin-left: 45px;
+}
+.para2{
+    font-size: 15px;
+
+}
+
+
+.para3{
+    color: gray;
+    font-size: 18px;
+    margin-left: 440px;
+}
+.para1{
+    font-size: 20px;
+    margin-left: 510px;
+}
+.cercle{
+    background-color: orangered;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    right:25px;
+    top: 70px;
+}
+.section-circle{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+   
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.circle-bar{
+  
+    width: 150px;
+    height: 150px;
+    border: 2px solid orangered;
+    border-radius: 90px;
+    
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h6{
+    text-align: center;
+    font-size: 15px;
+}
+.section-footer{
+    background-image: url(images/fond\ orange1.jpeg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin: auto; */
+    gap: 100px;
+    font-size: 25px;
+    height:200px;
+    background-size: cover;
+    color: white;
+    margin-top: 50px;
+    
+
+}
+ .titre{
+    font-size: 50px;
+    
+    
+}
+.deg{
+    position: relative;
+   right: 50px;
+   top: 30px;
+} 
+.section-footer2{
+    background-color:  rgb(114, 8, 141);
+    height: 70px;
+}
+.section-footer2 p{
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+    position: relative;
+    top: 20px;
+    margin: auto;
+}
+@media  only screen and (min-width:630px) and (max-width:1024px){
+    .P{
+    display: block;
+    height: 300px;
+    font-size: 17px;
+    }
+    .container-image{
+        display: block; 
+        grid-template-columns: auto auto auto; 
+        /* margin-top: 10px; */
+        gap:10px; 
+    
+    }
+    
+    .table{
+        display: flex;
+        margin-top: 300px;
+        margin-left: 50px; 
+
+    }
+    .folio{
+        display: block;
+    }
+    .porto{
+        position: relative;
+        
+    }
+  .une{
+      
+       margin-top: 20px;
+    }
+    .deux{
+        
+        position: relative;
+        right: 50px; 
+        top: 10px;
+    }
+    .paragraphe2 ,ul{
+        margin-left: 80px;
+    }
+    .paragraphe{
+        margin-left: 50px;
+    }
+    
+    .circle{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-right: 138px;
+        
+        
+    }
+    .section-circle{
+        display: flex; 
+        justify-content: center;
+       
+    }
+    .circle-bar{
+        width: 300px;
+        height: 300px;
+        border: 3px solid orangered;
+        border-radius: 150px;
+    }
+    h6{
+        text-align: center;
+        font-size: 22px;
+    }
+    .text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+    }
+    .section4{
+        background-color: rgb(114, 8, 141);
+        margin-top: 5px;
+        height: 160vh;  
+       
+    }
+    .career {
+        display: flex;
+       
+        align-items: center; 
+        color: rgb(75, 74, 74);
+        font-size: 20px;
+    }
+    .folio2{
+        display: block;
+        gap: 400px;
+        background-color:  rgb(114, 8, 141);
+        margin-top: 60px;
+    }
+    .folio3{
+        display: block;
+        gap: 400px;
+        margin-top: 60px;
+    }
+    .section-footer{
+        
+        display: block;
+        height:750px;
+      
+    }
+    .deg{
+        position: relative;
+        top: -110px;
+
+       
+    } 
+    .titre{
+        margin-right: 300px;
+       
+    }
+    .cercle{
+        background-color: orangered;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        position: relative;
+        right:25px;
+        top: 70px;
+    }
+    .section-footer2 p{
+        font-size: 15px;
+    }
+}
+
+@media  only screen and(max-width:630px){
+}
+   
+
+
